@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         </h1>
         <h1 className="text-5xl">
           <span className="text-blue-800">Detcennocsid</span>:
-          <span className="text-red-800">Connected</span>
+          <span className="text-red-800">Connercted</span>
         </h1>
         <h2 className="text-2xl tracking-[.25em] ">
           <span className="text-blue-800">disconnected</span> by reality:
