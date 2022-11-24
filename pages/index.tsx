@@ -3,18 +3,19 @@ import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div className="grid items-center justify-center h-screen bg-hero bg-no-repeat bg-center bg-contain bg-cover">
+    <div className="grid items-center justify-center h-screen bg-hero bg-no-repeat bg-center bg-contain lg:bg-cover">
       <div className="text-center">
-        <h1 className="text-5xl">
+        <h1 className="text-1rem lg:text-15em">
           <span className="text-red-800">disconnecteD</span>:
-          <span className="text-blue-800">detcennoC</span>
+          <span className="text-blue-800 opacity-40">detcennoC</span>
         </h1>
-        <h1 className="text-5xl">
-          <span className="text-blue-800">Detcennocsid</span>:
-          <span className="text-red-800">Connercted</span>
+        <h1 className="text-sm lg:text-5xl">
+          <span className="text-blue-800 opacity-40">Detcennocsid</span>:
+          <span className="text-red-800">Connected</span>
         </h1>
-        <h2 className="text-2xl tracking-[.25em] ">
-          <span className="text-blue-800">disconnected</span> by reality:
+        <h2 className="text-[12px] tracking-[.25em] lg:text-2xl ">
+          <span className="text-blue-800 ">disconnected</span> from reality
+          <br />
           <span className="text-red-800">connected</span> by humanity
         </h2>
       </div>
